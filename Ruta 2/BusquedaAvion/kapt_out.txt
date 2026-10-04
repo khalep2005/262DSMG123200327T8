@@ -1,0 +1,22 @@
+Calculating task graph as no cached configuration is available for tasks: app:kaptDebugKotlin
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'C:\Users\RICOLAS\AndroidStudioProjects\BusquedaAvion\app\build.gradle.kts' line: 1
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.android.application', version: '9.3.3']
+> Failed to apply plugin 'com.android.internal.application'.
+   > Failed to create service 'com.android.build.gradle.internal.services.AndroidLocationsBuildService_08ba4071-c1a0-4bf8-a374-e3f5bcb3130c'.
+      > Could not create an instance of type com.android.build.gradle.internal.services.AndroidLocationsBuildService.
+         > Could not create provider for value source AndroidLocationsBuildService.AndroidDirectoryCreator.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1s
+Configuration cache entry stored.
